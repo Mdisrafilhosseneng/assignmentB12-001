@@ -1,0 +1,119 @@
+.background{
+    background-image: url(image/Hero-bg.jpg);
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    height: 80px;
+}
+
+/* logo */
+.logo{
+    color: #4f46e5;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* common button style */
+.btn{
+    background-color: #4f46e5;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500px;
+}
+
+/* banner section */
+.banner{
+    text-align: center;
+    padding: 100px 150px;
+
+}
+.banner h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* action part */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  background-color: #e6f3f9;
+  gap: 50px; 
+}
+
+.left-content {
+  flex: 1;
+}
+
+.left-content p{
+    font-size: 1em;
+    color: #6b7280;
+    margin-bottom: 20 px;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+/* part 3 */
+.users-section {
+  background-color: #eff3f9;
+  padding: 60px 60px;
+}
+
+.users-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+.users-right {
+  
+  background-color: #d8e5f9;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.users-right h2 {
+  font-size: 1.5rem;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: #2970e3;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  font-size: 0.9rem;
+  color: #6b7280;
+  text-align: center;
+}
