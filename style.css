@@ -26,6 +26,7 @@
     border-radius: 6px;
     cursor: pointer;
     font-weight: 500px;
+    transition: background-color 0.3s;
 }
 
 /* banner section */
@@ -117,3 +118,161 @@
   color: #6b7280;
   text-align: center;
 }
+
+
+/* feedback section */
+
+.feedback-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color:rgb(146, 185, 217) ;
+}
+
+.feedback-section h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feedback-card {
+  background-color: #f2f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  width: calc(33.333% - 13.33px); /* 3 cards with spacing */
+  box-sizing: border-box;
+}
+
+.stars {
+  color: orange;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.feedback-title {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+
+.feedback-subtitle {
+  font-size: 13px;
+  color: #555;
+  margin: 8px 0 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.reviewer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.reviewer-info {
+  line-height: 1.2;
+}
+
+/* information section */
+
+.contact-section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color:#e9edf5;
+}
+
+.contact-container1 {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background-color: #D6DDED;
+}
+
+
+.left-side h2 {
+ align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top:125px;
+  margin-right: 45px;
+  mar
+  color: #111;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+form textarea {
+  min-height: 100px;
+}
+
+form button{
+    margin-top: 20px;
+}
+
+
+/* footer section */
+
+    footer {
+      background-color: white;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer h2 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    footer p {
+      margin: 10px 0 20px;
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    .footer-links a {
+      color: #1f4f6d;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+
+  
